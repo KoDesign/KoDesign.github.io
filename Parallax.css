@@ -3,20 +3,24 @@
 /*_______________________________Paralax______________________________*/
 .parallax { 
     /* The image used */
-    background-image: url("images/Mitt/DSC_0409.JPG");
+    background-image: url("images/Mitt/DSC_0409.jpg");
 
+   
     /* Set a specific height */
     height: 700px; 
+
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    left: 0;
+    background-size:300;
+ left: 0;
     right: 0;
     width: 100%;
-   position: relative;
-  
+    position: relative;
+    margin: auto;
+    bottom: 0;
+   
     top:0;
 }
 .parallax2 { 
