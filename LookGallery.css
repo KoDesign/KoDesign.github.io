@@ -10,9 +10,9 @@ margin: auto;
 }
 h3{
     z-index: 4;
-    position: absolute;
+    position: fixed;
     right:20;
-    top: 300;
+    bottom: 0;
     padding: 7px 15px;
     color: white;
     background-color: orange;
@@ -20,6 +20,7 @@ h3{
     border-radius:0px  30px  00px 30px ;
     width: 300;
 }
+
 a.lightbox img:hover{
     
     opacity: 0.8;
@@ -33,6 +34,26 @@ box-shadow: 0px 5px 10px #000000;
 border-radius:0px  30px  00px 30px ;
 }
 
+h2{
+position: relative;
+margin: auto;
+font-family: fantasy;
+font-size: 30;
+color: black;
+text-align: center;
+left: 0;
+right: 0;
 
+    
+}
+.Year1{
+    
+top: 350;
+position: relative;
+}
 
-
+.Year{
+    
+position: relative;
+TOP:350;
+}   
