@@ -1,0 +1,30 @@
+body{
+background-image: url(images/Mitt/20170715_154450.jpg); 
+background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+#Continue{
+    position:fixed;
+    color: whitesmoke;
+    font-family: fantasy;
+    text-decoration-line: none;
+    top: 90%;
+    text-align: center;
+    align-content: center;
+    left: 0;
+    right: 0;
+    font-size: 30;
+    width: 200;
+    background-color: black;
+    opacity: 0.8;
+    margin: auto;
+}
+#Continue:hover{
+    
+    opacity: 0.6;
+}

@@ -1,0 +1,98 @@
+
+
+/*_______________________________Paralax______________________________*/
+.parallax { 
+    /* The image used */
+    background-image: url("images/Mitt/DSC_0409.jpg");
+
+    /* Set a specific height */
+    height: 700px; 
+top: 0;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0;
+    right: 0;
+    width: 100%;
+   position: relative;
+  
+    top:0;
+}
+.parallax2 { 
+    /* The image used */
+    background-image: url("images/Mitt/kattedame.jpg");
+
+    /* Set a specific height */
+    height: 700px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:300;
+ left: 0;
+    right: 0;
+    width: 100%;
+    position: relative;
+    margin: auto;
+    bottom: 0;
+   
+    top:0;
+}
+.parallax3 { 
+    /* The image used */
+    background-image: url("images/Mitt/Pelle.png");
+
+    /* Set a specific height */
+    height: 700px; 
+position: relative;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:;
+ left: 0;
+    right: 0;
+    width: 100%;
+   
+    top:0;
+}
+
+.parallax5 { 
+    /* The image used */
+    background-image: url("images/Mitt/Magnus.jpg");
+position: relative;
+    /* Set a specific height */
+    height: 700; 
+
+    top:0;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+ left: 0;
+    right: 0;   
+    width: 100%;
+}
+
+
+.parallax6 { 
+    /* The image used */
+    background-image: url("images/Mitt/profilepic.JPG");
+position: relative;
+    /* Set a specific height */
+    height: 800; 
+
+    top:0;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+ left: 0;
+    right: 0;   
+    width: 100%;
+}

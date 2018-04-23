@@ -1,0 +1,18 @@
+.descriptionbox{
+
+text-align: left;
+position: relative;
+margin: auto;
+width: 60%   
+}
+h7{
+position: relative;
+font-family: fantasy;
+letter-spacing: 3px;
+font-size: 20;
+text-align: center;
+color: black;
+opacity: 0.7;
+width: 80%   
+    
+}
