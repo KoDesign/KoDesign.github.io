@@ -1,17 +1,17 @@
 body{
-background-image: url(images/Mitt/20170715_154450.jpg); 
+
 background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: whitesmoke;
 
     
 }
 
 #Continue{
     position:fixed;
-    color: whitesmoke;
-    font-family: fantasy;
+    color: black;
     text-decoration-line: none;
     top: 90%;
     text-align: center;
@@ -20,11 +20,384 @@ background-attachment: fixed;
     right: 0;
     font-size: 30;
     width: 200;
-    background-color: black;
     opacity: 0.8;
     margin: auto;
+    z-index: 1;
 }
 #Continue:hover{
     
-    opacity: 0.6;
+    color: orange;
+    text-shadow: 20px;
+
 }
+
+
+/*typing*/
+
+/* The typing effect */
+@keyframes typo {
+    from :{0}
+
+    to:{100%}
+    }
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+ }
+
+b2{
+text-align: center;
+color: whitesmoke;
+font-family: fantasy;
+font-size: 50;
+letter-spacing: 3px;
+position: absolute;
+background-color: black;
+  color:whitesmoke;
+width: 50%;
+opacity: 0.8;
+z-index: 2;
+left: 0;
+right: 0;
+top: 50;
+box-shadow: 0px 5px 10px #000000;
+border-radius:00px  00px  00px 30px ;
+
+}
+
+
+.typewriter b2{
+    font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: blink-caret .5s step-end infinite, typo 3.5s steps(30, end);  
+}
+
+#galaxy{
+    
+    position: fixed;
+    top: 30%;
+    left: 0;
+    right: 0;
+    width: 300px;
+    height: auto;
+    margin: auto;
+    z-index: 1;
+    /*Galaxy spin*/
+
+
+ -webkit-animation-name: spin;
+    -webkit-animation-duration: 16000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    -moz-animation-name: spin;
+    -moz-animation-duration: 16000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    -ms-animation-name: spin;
+    -ms-animation-duration: 16000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: spin;
+    animation-duration: 16000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+     transition: all .5s ease-in-out;
+}
+
+
+
+
+#galaxy:hover{
+    width: 40%;
+    height: auto;
+    top: 20%;
+    transform: scale(1.1);
+}
+
+/*Galaxy spin*/
+
+
+
+
+    @-ms-keyframes spin { 
+        from { 
+            -ms-transform: rotate(0deg); 
+        } to { 
+            -ms-transform: rotate(-360deg); 
+        }
+    }
+    @-moz-keyframes spin { 
+        from { 
+            -moz-transform: rotate(0deg); 
+        } to { 
+            -moz-transform: rotate(-360deg); 
+        }
+    }
+    @-webkit-keyframes spin { 
+        from { 
+            -webkit-transform: rotate(0deg); 
+        } to { 
+            -webkit-transform: rotate(-360deg); 
+        }
+    }
+    @keyframes spin { 
+        from { 
+            transform: rotate(0deg); 
+        } to { 
+            transform: rotate(-360deg); }}
+
+/*stars*/
+        
+        
+        
+        #star1{
+    
+      position: fixed;
+    top: 30%;
+    left: 0;
+    right: 0;
+    width: 500px;
+    height: auto;
+    margin: auto;
+  
+   animation-name: fade;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+
+
+}
+
+
+
+#star2{
+
+ 
+      position: fixed;
+    top: 20%;
+    left: 0;
+    right: 0;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    animation-name: fade3;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+#star3{
+
+ 
+      position: fixed;
+    top: 20%;
+    left: 0;
+    right: 0;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    animation-name: fade2;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    
+}           
+
+@keyframes fade{
+0% { opacity: 0}
+50%{ opacity: 1}
+100%{ opacity: 0};                
+     }
+
+@keyframes fade2{
+0% { opacity: 1}
+50%{ opacity: 0}
+100%{ opacity: 1};                
+     }
+@keyframes fade3{
+0% { opacity: 0.5}
+20%{ opacity: 1}
+60% { opacity: 0.5}
+80% { opacity: 0}   
+100%{ opacity: 0.5};                
+     }
+/*__________*/
+
+
+
+
+@-ms-keyframes fade{
+0% { opacity: 0}
+50%{ opacity: 1}
+100%{ opacity: 0};                
+     }
+
+@-ms-keyframes fade2{
+0% { opacity: 1}
+50%{ opacity: 0}
+100%{ opacity: 1};                
+     }
+@-ms-keyframes fade3{
+0% { opacity: 0.5}
+20%{ opacity: 1}
+60% { opacity: 0.5}
+80% { opacity: 0}   
+100%{ opacity: 0.5};                
+     }
+
+
+*__________*/
+
+
+
+
+@-moz-keyframes fade{
+0% { opacity: 0}
+50%{ opacity: 1}
+100%{ opacity: 0};                
+     }
+
+@-moz-keyframes fade2{
+0% { opacity: 1}
+50%{ opacity: 0}
+100%{ opacity: 1};                
+     }
+@-moz-keyframes fade3{
+0% { opacity: 0.5}
+20%{ opacity: 1}
+60% { opacity: 0.5}
+80% { opacity: 0}   
+100%{ opacity: 0.5};                
+     }
+
+
+*__________*/
+
+
+
+
+ @-webkit-keyframes fade{
+0% { opacity: 0}
+50%{ opacity: 1}
+100%{ opacity: 0};                
+     }
+
+ @-webkit-keyframes fade2{
+0% { opacity: 1}
+50%{ opacity: 0}
+100%{ opacity: 1};                
+     }
+ @-webkit-keyframes fade3{
+0% { opacity: 0.5}
+20%{ opacity: 1}
+60% { opacity: 0.5}
+80% { opacity: 0}   
+100%{ opacity: 0.5};                
+     }
+
+
+
+        /*komet*/
+        
+#komet{
+            
+         position: fixed;
+  
+   right: 0;
+    top: 0;
+    width: 100px;
+    height: auto;
+    margin: auto;
+    z-index: 2;
+
+
+        
+            
+        -webkit-animation-name: spin2;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+ 
+
+    -moz-animation-name: spin2;
+    -moz-animation-duration: 15s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+ 
+
+    -ms-animation-name: spin2;
+    -ms-animation-duration: 15;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+ 
+
+    animation-name: spin2;
+    animation-duration: 15;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+    }
+
+
+
+
+@keyframes spin2 {
+    0%   {right: 0p%; top: 0%; }
+    25%  {right: 100%; top: 100%;}
+    50%  {right: 200%; top: 200%;}
+    75%  {right: 300%; top: 300%; }
+    100% {right: 400%; top: 400%;}
+      from { 
+            transform: rotate(0deg);
+        } to { 
+            transform: rotate(360deg);
+        }
+}
+            
+          
+@-webkit-keyframes spin2 {
+       0%   {right: 0p%; top: 0%; }
+    25%  {right: 100%; top: 100%;}
+    50%  {right: 200%; top: 200%;}
+    75%  {right: 300%; top: 300%; }
+    100% {right: 400%; top: 400%;}
+      from { 
+            transform: rotate(0deg);
+        } to { 
+            transform: rotate(360deg);
+        }
+}
+
+@-moz-keyframes spin2 {
+    0%   {right: 0p%; top: 0%; }
+    25%  {right: 100%; top: 100%;}
+    50%  {right: 200%; top: 200%;}
+    75%  {right: 300%; top: 300%; }
+    100% {right: 400%; top: 400%;}
+      from { 
+            transform: rotate(0deg);
+        } to { 
+            transform: rotate(360deg);
+        }
+}
+
+@-ms-keyframes spin2 {
+     0%   {right: 0p%; top: 0%; }
+    25%  {right: 100%; top: 100%;}
+    50%  {right: 200%; top: 200%;}
+    75%  {right: 300%; top: 300%; }
+    100% {right: 400%; top: 400%;}
+      from { 
+            transform: rotate(0deg);
+        } to { 
+            transform: rotate(360deg);
+        }
+}
+
