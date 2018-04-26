@@ -28,7 +28,21 @@ background-attachment: fixed;
     
     color: orange;
     text-shadow: 20px;
+font-size: 40;
+}
 
+#Kontakt{
+    font-style: italic;
+    font-size: 15;
+    position: fixed;
+    bottom: 0;
+    right: 2%;
+    bottom: 2%;
+    text-align: right
+}
+#Kontakt:hover{
+    color: orange;
+    opacity: 0.5;
 }
 
 
@@ -119,9 +133,9 @@ border-radius:00px  00px  00px 30px ;
 
 
 #galaxy:hover{
-    width: 30%;
+    width: 25%;
     height: auto;
-    top: 20%;
+    top: 25%;
     transform: scale(1.1);
 }
 
@@ -211,22 +225,41 @@ border-radius:00px  00px  00px 30px ;
 }           
 
 @keyframes fade{
-0% { opacity: 0}
-50%{ opacity: 1}
-100%{ opacity: 0};                
+0% { opacity: 0;
+    transform: scale(1);
+    }
+50%{ opacity: 1;
+    transform: scale(1.2);
+}
+    51%{opacity: 0;
+    transform: scale(1.2);}
+100%{ opacity: 0;
+    transform: scale(1);}              
      }
 
 @keyframes fade2{
-0% { opacity: 1}
-50%{ opacity: 0}
-100%{ opacity: 1};                
+0% { opacity: 1;
+    transform: scale(1);}
+50%{ opacity: 0;
+    transform: scale(1.2)}
+51%{opacity: 0;
+    transform: scale(1)}
+100%{ opacity: 1;
+    transform: scale(1)};                
      }
 @keyframes fade3{
-0% { opacity: 0.5}
-20%{ opacity: 1}
-60% { opacity: 0.5}
-80% { opacity: 0}   
-100%{ opacity: 0.5};                
+0% { opacity: 0.5;
+    transform: scale(1);}
+20%{ opacity: 1;
+    transform: scale(1.1);}
+60% { opacity: 0.5;
+    transform: scale(1.2);}
+80% { opacity: 0;
+    transform: scale(1.2):}
+81%{opacity: 0;
+    transform: scale(1);}    
+100%{ opacity: 0.5;
+    transform: scale(1);    };                
      }
 /*__________*/
 
@@ -234,23 +267,43 @@ border-radius:00px  00px  00px 30px ;
 
 
 @-ms-keyframes fade{
-0% { opacity: 0}
-50%{ opacity: 1}
-100%{ opacity: 0};                
+0% { opacity: 0;
+    transform: scale(1);
+    }
+50%{ opacity: 1;
+    transform: scale(1.2);
+}
+    51%{opacity: 0;
+    transform: scale(1.2);}
+100%{ opacity: 0;
+    transform: scale(1);}              
      }
 
 @-ms-keyframes fade2{
-0% { opacity: 1}
-50%{ opacity: 0}
-100%{ opacity: 1};                
+0% { opacity: 1;
+    transform: scale(1);}
+50%{ opacity: 0;
+    transform: scale(1.2)}
+51%{opacity: 0;
+    transform: scale(1)}
+100%{ opacity: 1;
+    transform: scale(1)};                
      }
 @-ms-keyframes fade3{
-0% { opacity: 0.5}
-20%{ opacity: 1}
-60% { opacity: 0.5}
-80% { opacity: 0}   
-100%{ opacity: 0.5};                
+0% { opacity: 0.5;
+    transform: scale(1);}
+20%{ opacity: 1;
+    transform: scale(1.1);}
+60% { opacity: 0.5;
+    transform: scale(1.2);}
+80% { opacity: 0;
+    transform: scale(1.2):}
+81%{opacity: 0;
+    transform: scale(1);}    
+100%{ opacity: 0.5;
+    transform: scale(1);    };                
      }
+/*__________*/
 
 
 *__________*/
@@ -259,49 +312,86 @@ border-radius:00px  00px  00px 30px ;
 
 
 @-moz-keyframes fade{
-0% { opacity: 0}
-50%{ opacity: 1}
-100%{ opacity: 0};                
+0% { opacity: 0;
+    transform: scale(1);
+    }
+50%{ opacity: 1;
+    transform: scale(1.2);
+}
+    51%{opacity: 0;
+    transform: scale(1.2);}
+100%{ opacity: 0;
+    transform: scale(1);}              
      }
 
 @-moz-keyframes fade2{
-0% { opacity: 1}
-50%{ opacity: 0}
-100%{ opacity: 1};                
+0% { opacity: 1;
+    transform: scale(1);}
+50%{ opacity: 0;
+    transform: scale(1.2)}
+51%{opacity: 0;
+    transform: scale(1)}
+100%{ opacity: 1;
+    transform: scale(1)};                
      }
 @-moz-keyframes fade3{
-0% { opacity: 0.5}
-20%{ opacity: 1}
-60% { opacity: 0.5}
-80% { opacity: 0}   
-100%{ opacity: 0.5};                
+0% { opacity: 0.5;
+    transform: scale(1);}
+20%{ opacity: 1;
+    transform: scale(1.1);}
+60% { opacity: 0.5;
+    transform: scale(1.2);}
+80% { opacity: 0;
+    transform: scale(1.2):}
+81%{opacity: 0;
+    transform: scale(1);}    
+100%{ opacity: 0.5;
+    transform: scale(1);    };                
      }
-
 
 *__________*/
 
 
 
 
- @-webkit-keyframes fade{
-0% { opacity: 0}
-50%{ opacity: 1}
-100%{ opacity: 0};                
+
+@-webkit-keyframes fade{
+0% { opacity: 0;
+    transform: scale(1);
+    }
+50%{ opacity: 1;
+    transform: scale(1.2);
+}
+    51%{opacity: 0;
+    transform: scale(1.2);}
+100%{ opacity: 0;
+    transform: scale(1);}              
      }
 
- @-webkit-keyframes fade2{
-0% { opacity: 1}
-50%{ opacity: 0}
-100%{ opacity: 1};                
+@-webkit-keyframes fade2{
+0% { opacity: 1;
+    transform: scale(1);}
+50%{ opacity: 0;
+    transform: scale(1.2)}
+51%{opacity: 0;
+    transform: scale(1)}
+100%{ opacity: 1;
+    transform: scale(1)};                
      }
- @-webkit-keyframes fade3{
-0% { opacity: 0.5}
-20%{ opacity: 1}
-60% { opacity: 0.5}
-80% { opacity: 0}   
-100%{ opacity: 0.5};                
+@-webkit-keyframes fade3{
+0% { opacity: 0.5;
+    transform: scale(1);}
+20%{ opacity: 1;
+    transform: scale(1.1);}
+60% { opacity: 0.5;
+    transform: scale(1.2);}
+80% { opacity: 0;
+    transform: scale(1.2):}
+81%{opacity: 0;
+    transform: scale(1);}    
+100%{ opacity: 0.5;
+    transform: scale(1);    };                
      }
-
 
 
         /*komet*/
