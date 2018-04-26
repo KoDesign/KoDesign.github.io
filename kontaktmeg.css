@@ -6,7 +6,7 @@ height: 100px;
 
 #Linkedin{
     
-top: 0;
+top: 300;
 text-align: center;
 background-color: lightskyblue;
 position: relative;
@@ -36,5 +36,6 @@ margin: auto;
     top: 0;
     left: 0;
     right: 0;
+    width: 100;
     
     
