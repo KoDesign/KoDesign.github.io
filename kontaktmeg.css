@@ -6,7 +6,7 @@ height: 100px;
 
 #Linkedin{
     
-top: 300;
+top: 300px;
 text-align: center;
 background-color: lightskyblue;
 position: relative;
@@ -37,5 +37,56 @@ margin: auto;
     left: 0;
     right: 0;
     width: 100;
+    }
+
+#Email{
+  top: 300px;
+text-align: center;
+background-color: lightcoral;
+position: relative;
+
+width: 100%;
+padding-bottom: 40;
+left:0;
+right: 0;
+height: auto;
+z-index: 1;
+opacity: 0.9;
+margin: auto;
+margin-bottom: 0;  
+}
+#mailtext:hover{
+    color: orange;
+    border-color: orange;
+} 
+
+h3{
+
+    border: 10px 10px 10px 10px;
+    padding: 5px;
+
+
+}
+
+
+.ICON
+{top: 0%;
+left: 10;
+position: relative;
+width: 100px;
+height: 100px;
+resize: both 100px;
+z-index: 1;}
+
+#Linked{
+       color:white;
+    border-color: white;
+        border-style: solid;
+}
+#Linked:hover{
     
-    
+      color:orange;
+    border-color: orange;
+        border-style: solid;  
+  
+}

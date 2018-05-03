@@ -79,7 +79,7 @@ right: 0;
 top: 50;
 box-shadow: 0px 5px 10px #000000;
 border-radius:00px  00px  00px 30px ;
-
+padding: 10px;
 }
 
 
@@ -91,6 +91,7 @@ border-radius:00px  00px  00px 30px ;
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
   animation: blink-caret .5s step-end infinite, typo 3.5s steps(30, end);  
+width: 50%
 }
 
 #galaxy{
