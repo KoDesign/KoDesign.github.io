@@ -26,15 +26,65 @@
     background: #555; }
 
 
+/*________________Scrolltab-moz_____________________*/
 
+/* width */
+:: -moz-scrollbar {
+    width: 15px;
+    z-index: 4;
+    
+}
 
+/* Track */
+:: -moz-scrollbar-track {
+    background: white; 
+    z-index: 4;
+}
+ 
+/* Handle */
+:: -moz-scrollbar-thumb {
+    background: #262626; 
+    border-radius: 10px;
+    opacity: 0.8;
+    resize: both 5
+}
 
+/* Handle on hover */
+:: -moz-scrollbar-thumb:hover {
+    background: #555; }
+
+/*________________Scrolltab-ms_____________________*/
+
+/* width */
+:: -ms-scrollbar {
+    width: 15px;
+    z-index: 4;
+    
+}
+
+/* Track */
+:: -ms-scrollbar-track {
+    background: white; 
+    z-index: 4;
+}
+ 
+/* Handle */
+:: -ms-scrollbar-thumb {
+    background: #262626; 
+    border-radius: 10px;
+    opacity: 0.8;
+    resize: both 5
+}
+
+/* Handle on hover */
+:: -ms-scrollbar-thumb:hover {
+    background: #555; }
 
 /*____________________ Typing title____________________ /*
 
 /* The typing effect */
 @keyframes typo {
-    from :{0}
+    from :{0%}
 
     to:{100%}
     }
@@ -50,7 +100,7 @@ h{
 text-align: center;
 color: whitesmoke;
 font-family: fantasy;
-font-size: 55;
+font-size: 55px;
 letter-spacing: 3px;
 position: absolute;
 background-color: black;
@@ -58,9 +108,9 @@ background-color: black;
 width: 80%;
 opacity: 0.8;
 z-index: 2;
-left: 0;
-right: 0;
-top: 100;
+left: 0px;
+right: 0px;
+top: 100px;
 box-shadow: 0px 5px 10px #000000;
 border-radius:00px  00px  00px 30px ;
 padding: 10px;
@@ -81,10 +131,10 @@ width: 80%
 
 
 #siden{
-left: 0;
-right: 0;
-top:0;
-bottom: 0;
+left: 0px;
+right: 0px;
+top:0px;
+bottom: 0px;
 position: fixed;    
 -webkit-filter: blur(5px);
 -moz-filter: blur(5px);
@@ -105,19 +155,20 @@ opacity: 0.2;
 .Drop{
     
 position: fixed;
-width: 50;
-min-height: 50;
-min-width: 50;
-height: 50;
-top:0;
-left: 0;
+width: 50px;
+min-height: 50px;
+min-width: 50px;
+height: 50px;
+top:0px;
+left: 0px;
 float: left;
 z-index: 5;
 background-color: whitesmoke;
 }
 #dropm{
-height: 50;
-width: 50;
+height: 50px;
+width: 50px;
+z-index: 5;
 }
 /*_______________meny siden_______________________*/
 
@@ -129,36 +180,37 @@ width: 50;
 
 .DropCont {
     display: none;
-    position: absolute;
-    background-color: #f9f9f9;
+    position: relative;
+    background-color: whitesmoke;
     min-width: 100px;
   margin: auto;
     padding: 5px 5px 5px 5px ;
     list-style-type: none;
     color: black;
-    height: 10000;
+    height: 1000px;
     text-align: left;
-   left: 0;
+   left: 0px;
     z-index: 5;
+    width: auto;
 }
 
 .Drop:hover .DropCont{
     display: block;
 
 }
-#drops:hover{
+.drops:hover{
     
 background-color: black;
 color: whitesmoke;
 }
-#drops {
+.drops {
 
     float: left;
     align-content:left;
-    left: 0;
-    right: 0;
-    margin-top: 20;
-    margin-bottom: 20;
+    left: 0px;
+    right: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 padding-right:;
     
 }
@@ -166,11 +218,12 @@ padding-right:;
 a{
      text-decoration-line: none;
     color: black;
-    font-size: 20;
+    font-size: 20px;
+    z-index: 5;
 }
 html, body {
     max-width: 100%;
-margin: 0;
+margin: 0px;
 padding: 2%;
 font-family: monospace "Lucida Console" bold;
 }

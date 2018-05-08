@@ -6,16 +6,16 @@
     background-image: url("images/Mitt/DSC_0409.JPG");
 position: relative;
     /* Set a specific height */
-    height: 50%; 
+    height: 100%; 
 
-    top:0;
+    top:0px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
- left: 0;
-    right: 0;   
+  background-size:contain;
+ left: 0px;
+    right: 0px;   
     width: 100%;
 }
 .parallax2 { 
@@ -29,13 +29,13 @@ position: relative;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size:30%;
- left: 0;
-    right: 0;
+   background-size:contain;
+ left: 0px;
+    right: 0px;
     width: 100%;
     position: relative;
     margin: auto;
-    bottom: 0;
+    bottom: 0px;
    
     top:0;
 }
@@ -50,12 +50,12 @@ position: relative;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size:;
- left: 0;
-    right: 0;
+  background-size:contain;
+ left: 0px;
+    right: 0px;
     width: 100%;
    
-    top:0;
+    top:0px;
 }
 
 .parallax5 { 
@@ -65,14 +65,14 @@ position: relative;
     /* Set a specific height */
     height: 50%; 
 
-    top:0;
+    top:0px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
- left: 0;
-    right: 0;   
+  background-size:contain;
+ left: 0px;
+    right: 0px;   
     width: 100%;
 }
 
@@ -84,13 +84,13 @@ position: relative;
     /* Set a specific height */
     height: 50%; 
 
-    top:0;
+    top:0px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
- left: 0;
-    right: 0;   
+  background-size:contain;
+ left: 0px;
+    right: 0px;   
     width: 100%;
 }

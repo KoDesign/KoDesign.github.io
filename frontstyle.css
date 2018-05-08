@@ -61,29 +61,35 @@ font-size: 40;
   from, to { border-color: transparent }
   50% { border-color: orange; }
  }
-
-b2{
+i{width: auto;
+position: relative;
+margin: auto;
+right: 0;
+bottom: 0;
+}
+#b2{
 text-align: center;
 color: whitesmoke;
 font-family: fantasy;
 font-size: 50;
 letter-spacing: 3px;
-position: absolute;
+position: relative;
 background-color: black;
   color:whitesmoke;
-width: 50%;
+width: 100%;
 opacity: 0.8;
 z-index: 2;
 left: 0;
 right: 0;
-top: 50;
+top: 50px;
+margin: auto;
 box-shadow: 0px 5px 10px #000000;
 border-radius:00px  00px  00px 30px ;
-padding: 10px;
+padding: 0px;
 }
 
 
-.typewriter b2{
+.typewriter{
     font-family: monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
@@ -91,7 +97,7 @@ padding: 10px;
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
   animation: blink-caret .5s step-end infinite, typo 3.5s steps(30, end);  
-width: 50%
+width: 100%
 }
 
 #galaxy{
