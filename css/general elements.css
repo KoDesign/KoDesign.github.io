@@ -96,7 +96,7 @@
   50% { border-color: orange; }
  }
 
-h{
+h1{
 text-align: center;
 color: whitesmoke;
 font-family: fantasy;
@@ -117,7 +117,7 @@ padding: 10px;
 }
 
 
-.typewriter h{
+.typewriter h1{
     font-family: monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */

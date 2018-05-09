@@ -3,7 +3,7 @@
 /*_______________________________Paralax______________________________*/
 .parallax { 
     /* The image used */
-    background-image: url("images/Mitt/DSC_0409.JPG");
+    background-image: url("../images/Mitt/DSC_0409.JPG");
 position: relative;
     /* Set a specific height */
     height: 100%; 
@@ -20,7 +20,7 @@ position: relative;
 }
 .parallax2 { 
     /* The image used */
-    background-image: url("images/Mitt/kattedame.jpg");
+    background-image: url(../images/Mitt/kattedame.jpg);
 
     /* Set a specific height */
     height: 50%; 
@@ -41,7 +41,7 @@ position: relative;
 }
 .parallax3 { 
     /* The image used */
-    background-image: url("images/Mitt/Pelle.png");
+    background-image: url("../images/Mitt/Pelle.png");
 
     /* Set a specific height */
     height: 50%; 
@@ -60,7 +60,7 @@ position: relative;
 
 .parallax5 { 
     /* The image used */
-    background-image: url("images/Mitt/Magnus.jpg");
+    background-image: url("../images/Mitt/Magnus.jpg");
 position: relative;
     /* Set a specific height */
     height: 50%; 
@@ -79,7 +79,7 @@ position: relative;
 
 .parallax6 { 
     /* The image used */
-    background-image: url("images/Mitt/profilepic.JPG");
+    background-image: url("../images/Mitt/profilepic.JPG");
 position: relative;
     /* Set a specific height */
     height: 50%; 

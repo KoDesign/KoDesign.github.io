@@ -28,10 +28,10 @@ li {
     left: 0px;
     right: 0px;
    left: 50%;
- 
+list-style: none;
 }
 
-li #Iconmeny {
+li .Iconmeny {
     display: block;
     color: black;
     text-align: center;
@@ -41,7 +41,7 @@ li #Iconmeny {
     margin: auto;
 }
 
-li #Iconmeny:hover {
+li .Iconmeny:hover {
     background-color: ;
 }
 

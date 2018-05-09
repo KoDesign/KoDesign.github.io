@@ -55,26 +55,28 @@ opacity: 0.9;
 margin: auto;
 margin-bottom: 0;  
 }
-#mailtext:hover{
+.contakttext:hover{
     color: orange;
     border-color: orange;
 } 
 
-h3{
-
-    border: 10px 10px 10px 10px;
-    padding: 5px;
-
-
+.contakttext{
+left: 0%;
+position: relative;
+color: whitesmoke;
+font-family: sans-serif;
+font-size: 20px;
+width: 100%;
+margin: auto;
 }
 
 
 .ICON
-{top: 0%;
-left: 10;
-position: relative;
-width: 100px;
-height: 100px;
+{top: 10px;
+left: 10px;
+position: absolute;
+width: auto;
+height: 50%;
 resize: both 100px;
 z-index: 1;}
 
@@ -82,6 +84,11 @@ z-index: 1;}
        color:white;
     border-color: white;
         border-style: solid;
+       border: 10px 10px 10px 10px;
+    padding: 5px;
+    font-size: 25;
+    font-style:normal;
+    
 }
 #Linked:hover{
     
