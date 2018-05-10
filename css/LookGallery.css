@@ -1,7 +1,7 @@
 /*______________Gallery________________*/
 body{
-left: 20;
-right: 20;
+left: 20px;
+right: 20px;
 margin: auto;
  background-attachment: fixed;
     background-position: center;
@@ -11,14 +11,14 @@ margin: auto;
 h3{
     z-index: 4;
     position: fixed;
-    right:20;
-    bottom: 0;
+    right:20px;
+    bottom: 0px;
     padding: 7px 15px;
     color: white;
     background-color: orange;
  
     border-radius:0px  30px  00px 30px ;
-    width: 300;
+    width: 300px;
 }
 
 a.lightbox img:hover{
@@ -38,7 +38,7 @@ h2{
 position: relative;
 margin: auto;
 font-family: fantasy;
-font-size: 30;
+font-size: 30px;
 color: black;
 text-align: center;
 left: 0;
@@ -48,12 +48,12 @@ right: 0;
 }
 .Year1{
     
-top: 350;
+top: 350px;
 position: relative;
 }
 
 .Year{
     
 position: relative;
-TOP:350;
+TOP:350px;
 }   

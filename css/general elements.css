@@ -18,7 +18,6 @@
     background: #262626; 
     border-radius: 10px;
     opacity: 0.8;
-    resize: both 5
 }
 
 /* Handle on hover */
@@ -26,68 +25,10 @@
     background: #555; }
 
 
-/*________________Scrolltab-moz_____________________*/
 
-/* width */
-:: -moz-scrollbar {
-    width: 15px;
-    z-index: 4;
-    
-}
-
-/* Track */
-:: -moz-scrollbar-track {
-    background: white; 
-    z-index: 4;
-}
- 
-/* Handle */
-:: -moz-scrollbar-thumb {
-    background: #262626; 
-    border-radius: 10px;
-    opacity: 0.8;
-    resize: both 5
-}
-
-/* Handle on hover */
-:: -moz-scrollbar-thumb:hover {
-    background: #555; }
-
-/*________________Scrolltab-ms_____________________*/
-
-/* width */
-:: -ms-scrollbar {
-    width: 15px;
-    z-index: 4;
-    
-}
-
-/* Track */
-:: -ms-scrollbar-track {
-    background: white; 
-    z-index: 4;
-}
- 
-/* Handle */
-:: -ms-scrollbar-thumb {
-    background: #262626; 
-    border-radius: 10px;
-    opacity: 0.8;
-    resize: both 5
-}
-
-/* Handle on hover */
-:: -ms-scrollbar-thumb:hover {
-    background: #555; }
 
 /*____________________ Typing title____________________ /*
 
-/* The typing effect */
-@keyframes typo {
-    from :{0%}
-
-    to:{100%}
-    }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
@@ -206,12 +147,11 @@ color: whitesmoke;
 .drops {
 
     float: left;
-    align-content:left;
     left: 0px;
     right: 0px;
     margin-top: 20px;
     margin-bottom: 20px;
-padding-right:;
+
     
 }
 
@@ -225,5 +165,5 @@ html, body {
     max-width: 100%;
 margin: 0px;
 padding: 2%;
-font-family: monospace "Lucida Console" bold;
+
 }
