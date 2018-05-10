@@ -82,7 +82,7 @@ position: relative;
     background-image: url("../images/Mitt/profilepic.JPG");
 position: relative;
     /* Set a specific height */
-    height: 50%; 
+    height: 100%; 
 
     top:0px;
     /* Create the parallax scrolling effect */
@@ -92,5 +92,5 @@ position: relative;
   background-size:contain;
  left: 0px;
     right: 0px;   
-    width: 100%;
+    width: auto;
 }
