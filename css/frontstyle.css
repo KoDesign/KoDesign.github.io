@@ -8,7 +8,16 @@ background-attachment: fixed;
 
     
 }
-
+#lokking{
+    position: absolute;
+    top: 170px;  
+    font-size: 30px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    text-align: center;
+    z-index: 4;
+}
 #Continue{
     position:fixed;
     color: black;
