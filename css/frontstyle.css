@@ -5,7 +5,7 @@ background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: whitesmoke;
-font: "Verdana", sans-serif;
+font:"Helvetica", sans-serif;
     
 }
 #lokking{
@@ -80,7 +80,6 @@ bottom: 0px;
 #b2{
 text-align: center;
 color: whitesmoke;
-font-family: fantasy;
 font-size: 50px;
 letter-spacing: 3px;
 position: relative;

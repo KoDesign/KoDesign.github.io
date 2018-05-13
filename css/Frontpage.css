@@ -18,7 +18,7 @@ body{
    margin: auto;
     left: 20px;
     right: 20px;
-    
+ font-family: Helvetica, sans-serif;
 }
 
 
@@ -32,13 +32,13 @@ text-align: center;
 color: whitesmoke;
 opacity: 1;
 padding-top: 40px;
+
 }
 
 h3{
 position: relative;
 color: whitesmoke;
 font-size: 20px;
-
 max-width: 80%;
 margin: auto;
 margin-bottom: 2%;
