@@ -6,7 +6,7 @@
     background-image: url("../images/Mitt/DSC_0409.JPG");
 position: relative;
     /* Set a specific height */
-    height: 100%; 
+    height: 700px; 
 
     top:0px;
     /* Create the parallax scrolling effect */
@@ -23,7 +23,7 @@ position: relative;
     background-image: url(../images/Mitt/kattedame.jpg);
 
     /* Set a specific height */
-    height: 50%; 
+    height: 700px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -44,7 +44,7 @@ position: relative;
     background-image: url("../images/Mitt/Pelle.png");
 
     /* Set a specific height */
-    height: 50%; 
+    height: 700px;
 position: relative;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -63,7 +63,7 @@ position: relative;
     background-image: url("../images/Mitt/Magnus.jpg");
 position: relative;
     /* Set a specific height */
-    height: 50%; 
+    height: 700px;
 
     top:0px;
     /* Create the parallax scrolling effect */
@@ -82,7 +82,7 @@ position: relative;
     background-image: url("../images/Mitt/profilepic.JPG");
 position: relative;
     /* Set a specific height */
-    height: 100%; 
+    height: 700px;
 
     top:0px;
     /* Create the parallax scrolling effect */
@@ -92,5 +92,5 @@ position: relative;
   background-size:contain;
  left: 0px;
     right: 0px;   
-    width: auto;
+    width: 100%;
 }
