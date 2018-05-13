@@ -7,6 +7,7 @@ margin: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+     font-family: Helvetica, sans-serif;
 }
 h3{
     z-index: 4;
@@ -50,10 +51,12 @@ right: 0;
     
 top: 350px;
 position: relative;
+     font-family: Helvetica, sans-serif;
 }
 
 .Year{
     
 position: relative;
 TOP:350px;
+     font-family: Helvetica, sans-serif;
 }   
