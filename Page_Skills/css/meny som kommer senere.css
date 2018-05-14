@@ -49,14 +49,14 @@ li .menyicon{
 }
 h6{
     font-family: fantasy;
-    font-size: 30px;
+    font-size: 25px;
     padding: 0px;
-    margin: 0px;
+    margin: auto;
     color: black;
     right: 0px;
     margin-top: 5px;
     width: 90%;
-   
+ left: 0;
 
 }
 
