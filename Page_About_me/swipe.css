@@ -1,0 +1,6 @@
+#enter:active ~ #startskjerm{
+
+-webkit-animation: swipe 1s linear;
+animation-iteration-count: 1;
+animation-direction: 
+}

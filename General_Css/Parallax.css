@@ -94,3 +94,20 @@ position: relative;
     right: 0px;   
     width: 100%;
 }
+
+.parallax7 { 
+    /* The image used */
+    background-image: url("../images/Mitt/DSC_0631.JPG");
+position: relative;
+    /* Set a specific height */
+    height: 400px;
+    top:0px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+ left: 0px;
+    right: 0px;   
+    width: 100%;
+    background-size: 60%;
+}
