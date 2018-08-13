@@ -60,3 +60,22 @@ position: relative;
 TOP:350px;
      font-family: Helvetica, sans-serif;
 }   
+
+.linka{
+    
+    color: orange;
+font-size: 20px;
+}
+.linka:hover{
+    
+color: lightgrey;
+}
+#welcome{
+left: 0px;
+right: 0px;
+margin: auto;
+text-align: center;
+position: relative;
+top: 300px;
+font-size: 20px;
+}
